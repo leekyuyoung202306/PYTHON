@@ -1,6 +1,7 @@
 # 입력한 사용자간의 유클리드 점수를 계산하는 함수
 # 사용자가 데이터셋에 없으면 에러
 import numpy as np
+import json
 
 def euclidean_score(dataset, user1,user2):
   if user1 not in dataset:
